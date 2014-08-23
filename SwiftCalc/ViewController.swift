@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             displayedString = (displayedString as NSString).substringFromIndex(1)
         }
         
-        if outputLabel {
+        if (outputLabel != nil) {
             outputLabel!.text = displayedString
         }
     }
